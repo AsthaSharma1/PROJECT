@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+  
+  <link rel="stylesheet" href="sign.css">
+
+  </head>
+
+  <body>
+  <div id="boxForm">
+      <h2 id="title" style="font-size: 50px"> Login:</h2>
+<div class="container">
+
+      <form class="form-signin" method="POST" action="index.php">
+      <br>
+        <input class="text" type="text" id="inputUsername" class="form-control" placeholder="Email: " name="reg_uname" required />
+        <br> 
+        <input class="text" type="password" id="inputPassword" class="form-control" placeholder="Enter Password" name="reg_password" required/>
+        <br>
+        <input type="hidden" name="action" value="test_user_valid">
+        <br>
+         <input class='button' type='submit' value='Sign In'>
+      </form>
+
+    </div> <!-- /container -->
+  <div class="container">
+    <form class="form-signin" method="POST" action="signup.php">
+      <h2 id="title" style="font-size:40px">New Users: </h2>
+   <input class='button' type='submit' value='Register'> 
+    </form>
+  </div> 
+  </div>
+
+  
+
+  </body>
+</html>

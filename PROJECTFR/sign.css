@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch' );
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower'); 
+
+
+
+body
+{ 
+background-image: url("back.png"); 
+
+}
+
+{
+  background-color:rgba(255, 203, 96,0.5);
+}
+#boxForm
+{
+  background-image:url("box.png");
+  background-color:rgb(255, 203, 96);
+  width:375px;
+  
+  
+  position:absolute;
+  left:50vw;
+  margin-left:-170px;
+  box-shadow:1px 1px 8px rgba(244, 102, 27,1);
+}
+
+#boxForm #title
+{
+  font-family: "Cabin Sketch", cursive;
+  font-weight:bold;
+  text-align:center;
+  padding-top:20px;
+  font-size:20;
+  padding-bottom: -100px;
+}
+
+#boxForm form
+{
+  margin-top:-15px;
+  text-align:center;
+}
+.text
+{
+  padding:15px;
+  width:150px;
+  margin-top:15px;
+  border-style:none;
+  border-color:black;
+  font-family: "Berkshire Swash", sans-serif;
+  font-size:15px;
+  font-weight: none;
+  text-align: left;
+  color:rgb(244, 92, 27);
+  background-color:rgb(300, 263, 196);
+  margin-left:-23px;
+
+}
+
+.text:focus
+{
+  background-color:rgba(255,255,255,0.2);
+  border-style:none;
+  outline: none; /* to delete blue outline*/
+}
+{
+  margin-bottom:5px;
+}
+
+/* Custom  placeholder */
+
+::-webkit-input-placeholder { color:rgb(244, 102, 27);font-weight:bold;font-size:16px; }
+::-moz-placeholder { color:rgb(244, 102, 27); font-weight:bold;font-size:16px; } /* firefox 19+ */
+:-ms-input-placeholder { color:rgb(244, 102, 27);font-weight:bold;font-size:16px; } /* ie */
+input:-moz-placeholder { color:rgb(244, 102, 27); font-weight:bold;font-size:16px; }
+
+
+.button
+{
+  padding:10px;
+  width:50px;
+  
+  /* Background par colorzilla.com */
+  background: rgb(255,175,75); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,175,75,1)), color-stop(100%,rgba(255,146,10,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=0 ); /* IE6-9 */
+
+  font-family: "Amatic SC", cursive;
+  
+  font-size:30px; 
+  border-style:none;
+  box-shadow:1px 1px 1px 1px rgba(244, 102, 27,1);
+  cursor:pointer;
+  
+  color:white;
+  margin-top:15px;
+  margin:20px;
+  margin-left:-10px;
+}
+
