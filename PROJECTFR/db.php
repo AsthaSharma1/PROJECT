@@ -1,11 +1,11 @@
 <?php
 $hostname = "sql2.njit.edu";
-$username = "mte5";
-$password = "gmwSTJmc";
+$username = "as2865";
+$password = "embroil52";
 $conn = NULL;
 try 
 {
-    $conn = new PDO("mysql:host=$hostname;dbname=mte5",
+    $conn = new PDO("mysql:host=$hostname;dbname=as2865",
     $username, $password);
 }
 catch(PDOException $e)
